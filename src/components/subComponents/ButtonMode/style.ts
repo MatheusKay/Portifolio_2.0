@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { motion } from 'framer-motion'
 
 import { colors } from '../../../styles/globals'
 
@@ -6,7 +7,7 @@ type Props = {
   isDarkMode: boolean
 }
 
-export const ButtonCotainer = styled.div<Props>`
+export const ButtonCotainer = styled(motion.div)<Props>`
   width: 4em;
   height: 2em;
   padding: 6px;
@@ -24,7 +25,7 @@ export const ButtonCotainer = styled.div<Props>`
   }
 `
 
-export const Button = styled.span`
+export const Button = styled(motion.span)`
   width: 16px;
   height: 16px;
   background-color: ${colors.white.whiteTone1};

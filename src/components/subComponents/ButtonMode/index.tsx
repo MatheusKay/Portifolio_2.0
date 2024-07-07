@@ -1,4 +1,5 @@
 import { useDispatch, useSelector } from 'react-redux'
+import { spring } from 'framer-motion'
 
 import vetorSun from '../../../assets/images/vetor_sun.svg'
 import vetorMoon from '../../../assets/images/vetor_moon.svg'
@@ -18,7 +19,7 @@ const ButtonMode = () => {
 
   return (
     <ButtonCotainer onClick={heandleMode} isDarkMode={screenMode}>
-      <Button />
+      <Button layout transition={spring} />
       <img
         src={screenMode ? vetorSun : vetorMoon}
         alt="Imagem da lua para ilustrar o modo escuro"

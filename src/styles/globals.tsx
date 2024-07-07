@@ -59,6 +59,7 @@ export const StylesGlobals = createGlobalStyle<Props>`
     background-color: ${(props) => props.colors.backgroundColor};
     color: ${(props) => props.colors.textColor};
     font-family: ${fonts.openSans};
+    overflow-x: hidden;
 
     h1, h2, h3, {
       font-family: ${fonts.comfortaa};

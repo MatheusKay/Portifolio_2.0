@@ -1,7 +1,9 @@
 import styled from 'styled-components'
+import { motion } from 'framer-motion'
+
 import { Props } from '../../styles/globals'
 
-export const AboutContain = styled.div<Props>`
+export const AboutContain = styled(motion.div)<Props>`
   position: relative;
   line-height: 1.4em;
 

@@ -1,8 +1,9 @@
 import styled from 'styled-components'
+import { motion } from 'framer-motion'
 
 import { breakPoint } from '../../styles/globals'
 
-export const SkillsContain = styled.div`
+export const SkillsContain = styled(motion.div)`
   width: 75%;
   margin: 0 auto;
   display: flex;

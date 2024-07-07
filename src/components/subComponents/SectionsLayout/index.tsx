@@ -13,7 +13,11 @@ const Section = ({ element, title }: Props) => {
 
   return (
     <MainContain colors={colorsWeb}>
-      <SectionTitle>
+      <SectionTitle
+        initial={{ x: -100 }}
+        whileInView={{ x: 0 }}
+        transition={{ duration: 1.5 }}
+      >
         <span className="line-width" />
         <h2>{title}</h2>
       </SectionTitle>

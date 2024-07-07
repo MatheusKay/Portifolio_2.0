@@ -1,8 +1,9 @@
 import styled from 'styled-components'
+import { motion } from 'framer-motion'
 
 import { Props, breakPoint } from '../../styles/globals'
 
-export const FooterBio = styled.div`
+export const FooterBio = styled(motion.div)`
   margin-top: 24px;
   margin-bottom: 40px;
 
@@ -27,7 +28,7 @@ export const FooterBio = styled.div`
   }
 `
 
-export const FooterContact = styled.div`
+export const FooterContact = styled(motion.div)`
   width: 100%;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -58,11 +59,11 @@ export const FooterContain = styled.footer<Props>`
 
   ${FooterContact} {
     a {
-      color: ${(props) => props.colors.colorDetails};
+      color: ${(props) => props.colors.textColor};
       transition: color 1s ease;
 
       &:hover {
-        color: ${(props) => props.colors.colorDetailsText};
+        color: ${(props) => props.colors.colorDetails};
       }
     }
   }

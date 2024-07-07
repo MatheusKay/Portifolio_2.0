@@ -1,4 +1,6 @@
 import styled from 'styled-components'
+import { motion } from 'framer-motion'
+
 import { Props } from '../../../styles/globals'
 
 type Mode = {
@@ -54,7 +56,7 @@ export const ProjectButton = styled.button`
   }
 `
 
-export const ProjectContain = styled.div<Props>`
+export const ProjectContain = styled(motion.div)<Props>`
   width: 350px;
   height: 300px;
   position: relative;

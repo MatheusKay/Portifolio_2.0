@@ -1,4 +1,5 @@
 import { SkillsList } from '../../bancoProjetos'
+
 import CardSkill from '../subComponents/CardSkill'
 import Section from '../subComponents/SectionsLayout'
 
@@ -10,10 +11,11 @@ const SectionSkills = () => {
       title="Skills"
       element={
         <SkillsContain>
-          {SkillsList.map((skill) => (
+          {SkillsList.map((skill, indexId) => (
             <CardSkill
               key={skill.title}
               title={skill.title}
+              cardId={indexId}
               icons={
                 <>
                   {skill.icons.map((icon) => (

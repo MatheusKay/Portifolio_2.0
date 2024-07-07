@@ -1,8 +1,9 @@
 import styled from 'styled-components'
+import { motion } from 'framer-motion'
 
 import { Props, breakPoint } from '../../../styles/globals'
 
-export const SectionTitle = styled.section`
+export const SectionTitle = styled(motion.section)`
   margin-bottom: 2.5em;
   display: flex;
   align-items: center;
@@ -15,7 +16,7 @@ export const SectionTitle = styled.section`
   }
 `
 
-export const MainContain = styled.main<Props>`
+export const MainContain = styled(motion.main)<Props>`
   margin-bottom: 15%;
 
   ${SectionTitle} {

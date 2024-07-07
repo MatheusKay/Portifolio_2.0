@@ -13,7 +13,12 @@ const About = () => {
     <Section
       title="About me"
       element={
-        <AboutContain colors={colorsWeb}>
+        <AboutContain
+          colors={colorsWeb}
+          initial={{ y: 100, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1, overflowX: 'hidden' }}
+          transition={{ duration: 2.5 }}
+        >
           <span className="line-width" />
           <p className="first_p">
             Prazer, chamo-me Matheus e sou um desenvolvedor Front-end. Tenho 20

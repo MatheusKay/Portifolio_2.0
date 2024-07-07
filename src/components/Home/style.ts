@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { motion } from 'framer-motion'
 
 import backgroundImage from '../../assets/images/Container_Image_Photo.svg'
 
@@ -34,7 +35,7 @@ export const HomeInfos = styled.section`
   }
 `
 
-export const HomeBackgroundImage = styled.section`
+export const HomeBackgroundImage = styled(motion.section)`
   display: flex;
   justify-content: center;
 
@@ -51,7 +52,7 @@ export const HomeBackgroundImage = styled.section`
   }
 `
 
-export const HomeButtonCv = styled.button`
+export const HomeButtonCv = styled(motion.button)`
   width: 30%;
   padding: 16px 24px;
   border: none;

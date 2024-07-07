@@ -7,7 +7,11 @@ const Footer = () => {
 
   return (
     <FooterContain colors={colorsWeb}>
-      <FooterContact>
+      <FooterContact
+        initial={{ opacity: 0, x: -100 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{ duration: 1.5 }}
+      >
         <span>Contatos:</span>
         <a href="#">
           <svg
@@ -65,7 +69,11 @@ const Footer = () => {
           Telefone
         </a>
       </FooterContact>
-      <FooterBio>
+      <FooterBio
+        initial={{ opacity: 0, x: 100 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{ duration: 1.5 }}
+      >
         <h2>Meu Portfólio em forma de pensamentos</h2>
         <p>
           Primeiramente, agradeço por visitar meu portfólio e dedicar um momento

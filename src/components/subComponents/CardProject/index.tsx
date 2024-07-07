@@ -26,7 +26,12 @@ const CardProject = ({
   const dispatch = useDispatch()
 
   return (
-    <ProjectContain colors={colorsWeb}>
+    <ProjectContain
+      colors={colorsWeb}
+      initial={{ scale: 0 }}
+      whileInView={{ scale: 0.9 }}
+      transition={{ duration: 2 }}
+    >
       <img src={imageLogo} alt="" />
       <ProjectDesc modeName={modeName}>
         <h3>{title}</h3>

@@ -1,7 +1,9 @@
 import styled from 'styled-components'
+import { motion } from 'framer-motion'
+
 import { Props, breakPoint } from '../../../styles/globals'
 
-export const CardContain = styled.div<Props>`
+export const CardContain = styled(motion.div)<Props>`
   height: 150px;
   width: 150px;
   display: flex;

@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { motion } from 'framer-motion'
 
 import { fonts } from '../../styles/globals'
 
@@ -12,7 +13,7 @@ type Props = {
   }
 }
 
-export const HeaderContainer = styled.header<Props>`
+export const HeaderContainer = styled(motion.header)<Props>`
   width: 100%;
   padding: 24px;
   display: flex;
