@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/Portifolio_2.0/static/js/main.ba37fd54.js",
+    "main.js": "/Portifolio_2.0/static/js/main.ee1f7b1d.js",
     "static/js/453.98c7240a.chunk.js": "/Portifolio_2.0/static/js/453.98c7240a.chunk.js",
     "static/media/Relogio_Digital.png": "/Portifolio_2.0/static/media/Relogio_Digital.de3fa41e01abfd24622c.png",
     "static/media/Vinhos_Viniculas.png": "/Portifolio_2.0/static/media/Vinhos_Viniculas.474ae9fd17752939b29a.png",
@@ -11,10 +11,10 @@
     "static/media/vetor_sun.svg": "/Portifolio_2.0/static/media/vetor_sun.44216b0b59c89ae3d48aa40e66201d89.svg",
     "index.html": "/Portifolio_2.0/index.html",
     "static/media/Container_Image_Photo.svg": "/Portifolio_2.0/static/media/Container_Image_Photo.ed40fcdd05c561273c8aaec486b32900.svg",
-    "main.ba37fd54.js.map": "/Portifolio_2.0/static/js/main.ba37fd54.js.map",
+    "main.ee1f7b1d.js.map": "/Portifolio_2.0/static/js/main.ee1f7b1d.js.map",
     "453.98c7240a.chunk.js.map": "/Portifolio_2.0/static/js/453.98c7240a.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.ba37fd54.js"
+    "static/js/main.ee1f7b1d.js"
   ]
 }
