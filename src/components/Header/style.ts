@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { motion } from 'framer-motion'
 
-import { fonts } from '../../styles/globals'
+import { breakPoint, fonts } from '../../styles/globals'
 
 type Props = {
   colors: {
@@ -16,9 +16,6 @@ type Props = {
 export const HeaderContainer = styled(motion.header)<Props>`
   width: 100%;
   padding: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   position: sticky;
   top: 0;
   left: 0;
@@ -26,6 +23,20 @@ export const HeaderContainer = styled(motion.header)<Props>`
   font-family: ${fonts.comfortaa};
   border-bottom: 1px solid ${(props) => props.colors.textColor};
   backdrop-filter: blur(16px);
+
+  > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    > img {
+      width: 10em;
+
+      @media (max-width: ${breakPoint.mobile}) {
+        width: 9em;
+      }
+    }
+  }
 
   .container_buttons {
     display: flex;
@@ -51,9 +62,17 @@ export const HeaderLinks = styled.nav<Props>`
     list-style: none;
 
     li {
-      &:hover {
-        color: ${(props) => props.colors.colorDetailsText};
-        cursor: pointer;
+      a {
+        color: ${(props) => props.colors.textColor};
+        text-decoration: none;
+
+        &:hover {
+          color: ${(props) => props.colors.colorDetails};
+        }
+      }
+
+      .section_active {
+        border-bottom: 2px solid ${(props) => props.colors.colorDetails};
       }
     }
   }

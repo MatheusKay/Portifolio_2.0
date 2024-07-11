@@ -15,6 +15,7 @@ const SectionsProjects = () => {
   return (
     <>
       <Section
+        idSection="project"
         title="Projects"
         element={
           <ProjectsContain>

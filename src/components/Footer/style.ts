@@ -33,12 +33,19 @@ export const FooterContact = styled(motion.div)`
   padding-top: 24px;
   padding-bottom: 24px;
   display: flex;
-  align-items: center;
   justify-content: center;
-  column-gap: 16px;
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
   font-size: 14px;
+
+  div {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 16px;
+  }
 
   svg {
     margin-right: 8px;
@@ -58,6 +65,8 @@ export const FooterContain = styled.footer<Props>`
   width: 100%;
 
   ${FooterContact} {
+    border-color: ${(props) => props.colors.textColor};
+
     a {
       color: ${(props) => props.colors.textColor};
       transition: color 1s ease;

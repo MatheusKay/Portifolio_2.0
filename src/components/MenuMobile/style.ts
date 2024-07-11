@@ -18,6 +18,7 @@ export const MenuContainer = styled.div`
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 2;
 
   .overlay {
     width: 30%;
@@ -48,6 +49,10 @@ export const Menu = styled.aside<Props>`
       font-size: 18px;
       background-color: ${(props) => props.colors.colorDetailsText};
       color: ${(props) => props.colors.backgroundColor};
+    }
+
+    img {
+      width: 7em;
     }
   }
 

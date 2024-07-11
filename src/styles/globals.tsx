@@ -55,11 +55,15 @@ export const StylesGlobals = createGlobalStyle<Props>`
     box-sizing: border-box;
   }
 
+  body,
+  html {
+    overflow-x: hidden;
+  }
+
   body {
     background-color: ${(props) => props.colors.backgroundColor};
     color: ${(props) => props.colors.textColor};
     font-family: ${fonts.openSans};
-    overflow-x: hidden;
 
     h1, h2, h3, {
       font-family: ${fonts.comfortaa};

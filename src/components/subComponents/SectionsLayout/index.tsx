@@ -6,13 +6,14 @@ import { MainContain, SectionTitle } from './style'
 type Props = {
   title: string
   element: JSX.Element
+  idSection: string
 }
 
-const Section = ({ element, title }: Props) => {
+const Section = ({ element, title, idSection }: Props) => {
   const { colorsWeb } = useSelector((s: RootReducer) => s.states)
 
   return (
-    <MainContain colors={colorsWeb}>
+    <MainContain id={idSection} colors={colorsWeb}>
       <SectionTitle
         initial={{ x: -100 }}
         whileInView={{ x: 0 }}

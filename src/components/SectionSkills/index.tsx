@@ -8,6 +8,7 @@ import { SkillsContain } from './style'
 const SectionSkills = () => {
   return (
     <Section
+      idSection="skill"
       title="Skills"
       element={
         <SkillsContain>

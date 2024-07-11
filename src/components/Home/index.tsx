@@ -25,7 +25,7 @@ const Home = () => {
   }
 
   return (
-    <HomeContainer colors={colorsWeb}>
+    <HomeContainer id="home" colors={colorsWeb}>
       <HomeInfos>
         <div>
           <motion.h1

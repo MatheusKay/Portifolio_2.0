@@ -1,5 +1,7 @@
 import { useDispatch, useSelector } from 'react-redux'
 
+import logoVetor from '../../assets/images/Matheus_Kayque_Logo.svg'
+
 import { MenuContainer, Menu, MenuLinks } from './style'
 
 import { RootReducer } from '../../store'
@@ -23,7 +25,7 @@ const MenuMobile = () => {
           <Menu colors={colorsWeb}>
             <div>
               <div className="header_menu">
-                <h3>Logo</h3>
+                <img src={logoVetor} alt="" />
                 <button onClick={closeMenuMobile}>X</button>
               </div>
               <nav>
@@ -44,7 +46,7 @@ const MenuMobile = () => {
               </nav>
             </div>
             <span className="footer_menu">
-              Texto do Footer colocar com a logo
+              &copy; Todos os direitos reservados
             </span>
           </Menu>
           <span onClick={closeMenuMobile} className="overlay"></span>

@@ -11,6 +11,7 @@ const About = () => {
 
   return (
     <Section
+      idSection="about"
       title="About me"
       element={
         <AboutContain

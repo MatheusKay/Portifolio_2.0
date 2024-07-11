@@ -75,7 +75,7 @@ export const HomeContainer = styled.main<Props>`
   align-items: center;
 
   @media (max-width: 767px) {
-    margin-top: 15%;
+    margin-top: 30%;
     display: block;
   }
 
