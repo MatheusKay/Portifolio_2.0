@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/Portifolio_2.0/static/js/main.ee1f7b1d.js",
+    "main.js": "/Portifolio_2.0/static/js/main.9aaaac58.js",
     "static/js/453.98c7240a.chunk.js": "/Portifolio_2.0/static/js/453.98c7240a.chunk.js",
     "static/media/Relogio_Digital.png": "/Portifolio_2.0/static/media/Relogio_Digital.de3fa41e01abfd24622c.png",
     "static/media/Vinhos_Viniculas.png": "/Portifolio_2.0/static/media/Vinhos_Viniculas.474ae9fd17752939b29a.png",
@@ -9,12 +9,13 @@
     "static/media/vetor_moon.svg": "/Portifolio_2.0/static/media/vetor_moon.4923c089e0b348c580a5d46ef90811e7.svg",
     "static/media/Trevo_Gastronomico.png": "/Portifolio_2.0/static/media/Trevo_Gastronomico.641ac35216e0815045dd.png",
     "static/media/vetor_sun.svg": "/Portifolio_2.0/static/media/vetor_sun.44216b0b59c89ae3d48aa40e66201d89.svg",
+    "static/media/Matheus_Kayque_Logo.svg": "/Portifolio_2.0/static/media/Matheus_Kayque_Logo.23d3278f0bbcae8322741e331eb8405f.svg",
     "index.html": "/Portifolio_2.0/index.html",
     "static/media/Container_Image_Photo.svg": "/Portifolio_2.0/static/media/Container_Image_Photo.ed40fcdd05c561273c8aaec486b32900.svg",
-    "main.ee1f7b1d.js.map": "/Portifolio_2.0/static/js/main.ee1f7b1d.js.map",
+    "main.9aaaac58.js.map": "/Portifolio_2.0/static/js/main.9aaaac58.js.map",
     "453.98c7240a.chunk.js.map": "/Portifolio_2.0/static/js/453.98c7240a.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.ee1f7b1d.js"
+    "static/js/main.9aaaac58.js"
   ]
 }
