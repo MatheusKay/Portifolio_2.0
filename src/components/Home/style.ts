@@ -52,11 +52,12 @@ export const HomeBackgroundImage = styled(motion.section)`
   }
 `
 
-export const HomeButtonCv = styled(motion.button)`
+export const HomeButtonCv = styled(motion.a)`
   width: 30%;
   padding: 16px 24px;
   border: none;
   border-radius: 24px;
+  text-decoration: none;
   font-size: 16px;
   font-weight: bold;
   transition: background-color 0.3s ease-in-out;

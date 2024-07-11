@@ -44,6 +44,8 @@ const Home = () => {
           </motion.h3>
         </div>
         <HomeButtonCv
+          href={`${process.env.PUBLIC_URL}/cv_mkayque.pdf`}
+          target="_blenk"
           initial={{ opacity: 0, scale: 0 }}
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1.5 }}

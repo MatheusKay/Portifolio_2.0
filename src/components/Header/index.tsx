@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import ButtonMode from '../subComponents/ButtonMode'
 
 import logoVetor from '../../assets/images/Matheus_Kayque_Logo.svg'
+import logoVetorDark from '../../assets/images/Matheus_Kayque_Logo_Dark.svg'
 
 import { HeaderContainer, HeaderLinks, ButtonMobile } from './style'
 
@@ -11,7 +12,7 @@ import { RootReducer } from '../../store'
 import { openOrClose } from '../../store/reducers/states'
 
 const Header = () => {
-  const { colorsWeb } = useSelector((s: RootReducer) => s.states)
+  const { colorsWeb, modeName } = useSelector((s: RootReducer) => s.states)
   const [secAtive, setSecActive] = useState('home')
 
   const dispatch = useDispatch()
@@ -32,7 +33,10 @@ const Header = () => {
       colors={colorsWeb}
     >
       <div className="container">
-        <img src={logoVetor} alt="Matheus Kayque logo do portifolio" />
+        <img
+          src={modeName === 'dark' ? logoVetor : logoVetorDark}
+          alt="Matheus Kayque logo do portifolio"
+        />
         <HeaderLinks colors={colorsWeb}>
           <ul>
             <li>
