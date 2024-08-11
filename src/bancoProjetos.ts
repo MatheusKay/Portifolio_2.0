@@ -3,6 +3,7 @@ import imageTrevo from './assets/images/Projects_Image/Trevo_Gastronomico.png'
 import imageRelogio from './assets/images/Projects_Image/Relogio_Digital.png'
 import imageVinhos from './assets/images/Projects_Image/Vinhos_Viniculas.png'
 import imageCinematic from './assets/images/Projects_Image/Cinematic_Nightmare.png'
+import imageBlckTattoo from './assets/images/Projects_Image/Tattoo_Studio.png'
 
 export type ProjectsType = {
   title: string
@@ -132,17 +133,31 @@ export const ProjectsList: ProjectsType[] = [
       repository: 'https://github.com/MatheusKay/cinematic-nightmare',
       webLink: 'https://cinematic-nightmare.vercel.app/'
     }
+  },
+  {
+    title: 'Studio Black Tattoo',
+    description: [
+      'O projeto Tattoo Studio é uma landing page desenvolvida para promover um estúdio de tatuagens, focando em proporcionar uma experiência informativa e inspiradora para os clientes. A página oferece seções detalhadas sobre a equipe de tatuadores, um portfólio para inspirar ideias com exemplos de trabalhos já realizados, além de uma área dedicada a perguntas frequentes. Para facilitar o contato, há também uma seção onde os visitantes podem tirar dúvidas adicionais ou agendar um horário com o estúdio.',
+      'Este foi meu primeiro projeto usando Angular, e apesar de sua simplicidade, ele foi fundamental para minha familiarização com o framework. Utilizei Sass para estilizar todo o projeto, aproveitando a componentização do Angular e manipulando formulários diretamente no framework. A landing page foi totalmente estilizada com CSS puro e Sass.',
+      'Este projeto marcou minha entrada no universo do Angular, ampliando meu repertório além do React, e representa o primeiro de muitos projetos que pretendo realizar com essa tecnologia.'
+    ],
+    presentationText: 'Uma landing page para um studio de tattuagem.',
+    representationImage: imageBlckTattoo,
+    technology: [
+      'HTML',
+      'CSS',
+      'JS',
+      'TypeScript',
+      'Angular',
+      'Sass',
+      'Responsive Design',
+      'Git/GitHub'
+    ],
+    links: {
+      repository: 'https://github.com/MatheusKay/Tattoo_Page',
+      webLink: 'https://tattoo-black-studio.vercel.app'
+    }
   }
-  // {
-  //   title: 'Titulo do projeto',
-  //   description: 'Descrição completa do projeto aqui',
-  //   representationImage: 'link da imagem',
-  //   technology: ['HTML', 'React.JS', 'CSS', 'JS'],
-  //   links: {
-  //     repository: 'link do repositorio',
-  //     webLink: 'link do projeto no ar'
-  //   }
-  // },
   // {
   //   title: 'Titulo do projeto',
   //   description: 'Descrição completa do projeto aqui',
